@@ -2,8 +2,6 @@ const { all } = require("axios");
 const USER_SCHEMA = require("../models/users.model");
 const { generateToken } = require("../utils/generate.Token");
 
-
-
 exports.addUser = async (req, res) => {
     try {
         let { username, email, password } = req.body;

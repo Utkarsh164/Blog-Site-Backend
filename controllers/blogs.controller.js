@@ -34,7 +34,6 @@ catch(e){
 
 
 
-
 exports.fetchAllBlog=async(req,res)=>{
     try{
         const allBlogs=await BLOG_SCHEMA.find();
